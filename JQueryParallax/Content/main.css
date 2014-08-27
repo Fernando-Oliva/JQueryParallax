@@ -65,6 +65,22 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+.name
+{
+	width:1000px;
+	}
+	h1
+{
+	position: relative;
+ font-family:Mf Summertime;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+  color:#F8F8F8 ;
+	font-size:80px;
+	top:30%;
+}
+
 
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
@@ -145,6 +161,12 @@ main {
 	top: 0;
 	left: 0;
 }
+
+.homeSlide
+{
+	height:200px;
+}
+
 .bcg {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -161,11 +183,39 @@ main {
 	position: relative;
 }
 
+header
+{
+	background-color:White;
+	height:90px;
+}
+
+.headerNameDiv
+{
+	padding-top:15px;
+}
+
+.desc
+{
+	font-family:Mf Summertime;
+	font-size:50px;
+	float:right;
+	margin-right:250px;
+	color:Black;
+	margin-top:130px;
+	width:60px;
+}
+
+.headerName
+{
+	font-size:30px;
+	margin-left:15px;
+}
+
+
 .hsContent {
 	max-width: 700px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
+	margin-top:20px;
+	margin-left:10px;
 }
 	.hsContent h2  {
 		color: #fff8de;
@@ -185,46 +235,23 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('img/HD-landscape-Photographs.png')}
+#slide-1 .bcg {background-color:#f4f4f4}
 #slide-1 .hsContent {
-	top: 200px;
+	top: 100px;
 }
 
-.paper1
-{
-	float:left;
-	margin-top:400px;
-	margin-left:200px;
-}
-.paper2
-{
-	float:right;
-	margin-top:250px;
-	margin-left:200px;
-}
-.paper3
-{
-	float:left;
-	margin-top:100px;
-	margin-left:250px;
-}
-.paper4
-{
-	float:right;
-	margin-top:500px;
-	margin-right:400px;
-}
+
 
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('img/bcg_slide-2.jpg')}
 #slide-2 .hsContent {
-	margin-left: -450px;
+	margin-left:400px;
 	bottom: 200px;
-	top: auto;
+	margin-top:400px;
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background-color:#c9dce6}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -236,7 +263,9 @@ main {
 /* Slide 4 */
 #slide-4 .bcg {background-image:url('img/bcg_slide-1.jpg')}
 #slide-4 .hsContent {
-	margin-left: -450px;
+	float:right;
+	margin-right: 600px;
+	margin-top:200px;
 }
 	#slide-4 h2 {
 		background: none;
